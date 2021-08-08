@@ -2,11 +2,13 @@ Title: Modeling relative sophistication of problem-solving strategies in early m
 Date: April 2021
 Authors: Carson Keeter, MS        -   University of Wyoming  (Dept. of Statistics) 
  	 Pavel Chernyavskiy, PhD  -   University of Virginia (School of Medicine)
- 	 Traci Kutaka, PhD        -   University of Denver   (Marsico Institute)
+ 	 Traci Kutaka, PhD        -   University of Virginia   (School of Education and Human Development)
  	 Douglas Clements, PhD    -   University of Denver   (Marsico Institute)
  	 Julie Sarama, PhD        -   University of Denver   (Marsico Institute)
+   
+This work was supported by Institute for Educational Sciences grant R305A200100 "Evolution of kindergartners' arithmetical problem-solving strategies" to Kutaka, Sarama, and Clements.
 
-Contact: Carson Keeter @ keeterc1@gmail.com with questions regarding code, analysis, and the like. 
+Contact: Carson Keeter @ keeterc1@gmail.com or Pavel Chernyavskiy @ pchern@virginia.edu with questions regarding code, analysis, etc. 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Abstract: To date, interventions have typically focused on increasing correctness as the primary metric of efficacy across education research. 
@@ -36,7 +38,8 @@ Code: Descriptions and proper order of code are seen below.
 **The 'tidyverse' package (loaded in "Model_construction.R" as well as 'tidybayes') masks the `extract()` function in 'rstan'. The error "Error in UseMethod("extract_"): no applicable method for 'extract_' applied to an object of class "stanfit"" can be avoided by directly calling `rstan::extract()` (seen in "Model_construction.R": lines 369, 391-393; "Model_based_plots": lines 120, 190, 233)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-Data: "LT_length_data.csv" 
+Data: "LT_length_data.csv"
+- Note: data will be made public according to Institute of Education Sciences data-sharing guidelines following an embargo.
 
 Variable Descriptions
 
